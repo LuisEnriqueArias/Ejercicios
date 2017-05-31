@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body class="container" style="height: 100%;">
+	<section class="jumbotron" style="height: 100%;">
+	<h1 style="
+			font-family: sans-serif;
+			font-weight: bold;
+			font-size: 150px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			">
+
+		<span id="hora">00</span>:
+		<span id="minuto">00</span>:
+		<span id="segundo">00</span>
+
+	</h1><
+	</section>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		
+		setInterval(function() {
+			var d = new Date();
+			var hora = d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
+			console.log(hora);
+			$('#hora').text((d.getHours()<10)?'0'+d.getHours():d.getHours());
+			$('#minuto').text((d.getMinutes()<10)?'0'+d.getMinutes():d.getMinutes());
+			$('#segundo').text((d.getSeconds()<10)?'0'+d.getSeconds():d.getSeconds());
+		},1000);
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+#form1 {
+	padding: 20px;
+}
+#row1 {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 30px;
+}
+#container1{
+	box-shadow: 4px 4px 4px #aaa;
+	background-color:  #f4f4f4;
+	background-image: url("http://s1.1zoom.me/big0/45/Milky_Way_Stars_Sky_438379.jpg");
+	background-size: cover;
+}
+#usernameh2{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 50px;
+	margin-left: 13px;
+	color: white;
+	text-shadow: 1px 1px 1px #aaa;
+}
+#locationuser{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 13px;
+	color: white;
+	text-shadow: 1px 1px 1px #aaa;
+}
+#atuser{
+	font-family: 'Quicksand', sans-serif;
+	margin-top: -8px;
+	font-size: 17px;
+	margin-left: 13px;
+	color: white;
+	text-shadow: 1px 1px 1px #aaa;
+}
+#avatar {
+	box-shadow: 2px 2px 2px #aaa;
+	background-color: #ffffff;
+}
+#usercommondata {
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+#template{
+	border: solid 1px #ccc;
+	box-shadow: 4px 4px 4px #ccc;
+	padding: 15px;
+	margin: 10px;
+}
+
+#template img{
+	height: 40px;
+	width: 40px;
+	border: solid 1px #ccc;
+	border-radius: 50%;
+}

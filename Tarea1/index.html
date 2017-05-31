@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario Html</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body class="container">
+<header>
+	<h2 class="form-signin-heading" style="text-align: center; font-family: 'Chela One', cursive;">Formulario con Html5</h2>
+</header>
+<nav class="navbar navbar-default">
+	<ul class="nav navbar-nav">
+    	<div class="navbar-header">
+        <a href="#" class="navbar-left"><img src="img/generic-logo2.jpg" style="width: 168px;"></a>
+    	</div>
+    	<li><a href="#">Inicio</a></li>
+		<li class="active"><a href="#">Formulario</a></li>
+		<li><a href="#">Contactos</a></li>
+		<li><a href="#">Noticias</a></li>
+		<li><a href="#">Proyectos</a></li>
+	</ul>
+</nav>
+<section class="jumbotron">
+	<form method="POST" style="width: 300px;">
+		<div class="input-group margin-bottom-sm">
+  		<span class="input-group-addon"><i class="fa fa-user-circle-o fa-fw"></i></span>
+  		<input class="form-control" name="nombre" type="text" placeholder="Ingrese su Nombre" required="required">
+		</div>
+		<br>
+		<div class="input-group margin-bottom-sm">
+  		<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+  		<input class="form-control" name="email" type="email" placeholder="Ingrese su Email" required="required">
+		</div>
+		<br>
+		<div class="input-group margin-bottom-sm">
+  		<span class="input-group-addon"><i class="fa fa-clock-o fa fa-fw"></i></span>
+  		<input class="form-control" name="edad" type="number" placeholder="Ingrese su Edad" required="required" min="0" max="100">
+		</div>
+		<br>
+		<div style="text-align: center;">
+		<label><i class="fa fa-calendar fa-lg" aria-hidden="true"></i> Fecha de Nacimiento:</label>
+		</div>
+		<input type="date" name="fechaNacimiento" class="form-control" required="required">
+		<br>
+		<input type="submit" class="btn-primary btn-block btn-lg">
+	</form>
+</section>
+</body>
+<div style="text-align: center;">
+<footer>
+
+</footer>
+</div>
+</html>

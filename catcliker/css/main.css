@@ -1,0 +1,28 @@
+.clikerdown{
+	background-color: red;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+.clikerdown span{
+	color: #fff;
+	font-size: 22px;
+	margin-top: 5px;
+}
+.clikerup span{
+	color: #fff;
+	font-size: 22px;
+	margin-top: 5px;
+}
+.clikerup{
+	background-color: green;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
